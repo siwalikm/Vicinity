@@ -1,7 +1,7 @@
 # Vicinity
 A python based app which lets you transfer files within computers in the same network, using Simple Hand Gestures.
 
-This is a hobby project created along with my friends Yashparikh1994@gmail.com and comeonanubhav@gmail.com. You can improve the code or provide suggestions but using the code for any kind of commercial or private use without prior permission will be considered as copyright breach.
+This is a hobby project created along with my friends YashParikh and AnubhavArukia. You can improve the code or provide suggestions but using the code for any kind of commercial or private use without prior permission will be considered as copyright breach.
 
 To use the application, first create a directory in C drive called "VICINITY".
 Copy contents of zip package to c:/VICINITY and you're ready to run the app.
