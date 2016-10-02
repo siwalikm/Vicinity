@@ -124,6 +124,10 @@ while True:
         q = 0
         #START HTTP server
         PORT = 8000   
+		
+		# Change working directory to location of SendGes.py, so program can be ran from any directory
+		os.chdir(os.path.dirname(os.path.realpath(__file__)))
+		
         Handler = SimpleHTTPServer.SimpleHTTPRequestHandler
         Handler.extensions_map.update({
         '.webapp': 'application/x-web-app-manifest+json',
