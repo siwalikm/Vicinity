@@ -138,7 +138,7 @@ while True:
         
         for filenames in filelist:
             print(filenames[:-1])
-            fullfilename = os.path.join("C:\VICINITY\RECEIVE", filenames[:-1])
+            fullfilename = os.path.join(os.path.dirname(os.path.realpath(__file__)),filenames[:-1])
             testfile.retrieve("http://"+ip+":8000/SEND/"+filenames[:-1], fullfilename)
 
         print("Goto Received folder to see the files.")   
