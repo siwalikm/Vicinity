@@ -1,4 +1,7 @@
+<img style="display:inline-block;cursor: zoom-in;" src="https://i.imgur.com/pe2427T.png" width="120px">
+
 # Vicinity
+
 <img style="cursor: zoom-in;" src="http://siwalik.in/images/gesture-.gif" height="300px" width="520px">
 
 A python based app which lets you transfer files within computers in the same network, using Simple Hand Gestures.
